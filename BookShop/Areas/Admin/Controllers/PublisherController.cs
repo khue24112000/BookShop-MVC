@@ -26,6 +26,8 @@ namespace BookShop.Areas.Admin.Controllers
         {
             var publisher = _context.Publishers.ToList();
             return View(publisher);
+
+            //ádasdasd
         }
 
         public JsonResult IsExist(string Name)
